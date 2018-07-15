@@ -15,7 +15,7 @@ class MenuActivity : AppCompatActivity() {
 
         // FloatingActionButton
         // 型推論，FloatingActionButton? 型になる
-        var fab = this.findViewById<FloatingActionButton?>(R.id.floatingActionButton)
+        var fab = this.findViewById<FloatingActionButton?>(R.id.fab_add)
 
         fab?.setOnClickListener {
             var intent = Intent(this, MarkActivity::class.java) // thisはapplicationのが良い?

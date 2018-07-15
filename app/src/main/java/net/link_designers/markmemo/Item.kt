@@ -4,7 +4,9 @@ package net.link_designers.markmemo
 class Item {
 
     var num = arrayOf(1,1,1)
+    var answer = arrayOf(1)
     var level = 0
+
 
     fun getString() : String {
 
